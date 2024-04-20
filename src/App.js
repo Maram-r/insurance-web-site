@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Description from './Description/Description'
 import Footer  from './components/Footer'
 import Slider from "./Carroussel/Slider";
-
+//******************** */
 
 
 function App() {
