@@ -1,0 +1,28 @@
+
+@media only screen and (max-width: 480px)
+.row-full, .fullpage-wrapper {
+    padding: 15px;
+}
+@media only screen and (max-width: 992px)
+.row-full, .fullpage-wrapper, .grey-conseil-blc {
+    padding: 15px;
+}
+@media only screen and (max-width: 1366px)
+.row-full, .fullpage-wrapper {
+    width: auto !important;
+    margin-left: auto !important;
+    left: auto !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.double-zn-red {
+    color: #fff;
+}
+.form-home, .double-zn-red {
+    padding: 75px 15px;
+    background: #8a155a;
+    background: -moz-linear-gradient(left, #8a155a 0, #be1831 50%, #c3192d 51%, #e41b13 100%);
+    background: -webkit-linear-gradient(left, #8a155a 0, #be1831 50%, #c3192d 51%, #e41b13 100%);
+    background: linear-gradient(to right, #8a155a 0, #be1831 50%, #c3192d 51%, #e41b13 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a155a', endColorstr='#e41b13', GradientType=1);
+}
