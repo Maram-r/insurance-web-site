@@ -6,7 +6,8 @@ import Footer  from './components/Footer'
 import CustomNavbar from './components/Navbar/CustomNavbar'
 //import Signup from "./components/LoginSignup/Signup";
 import Signin from "./components/LoginSignup/Signin";
-
+import Store from "./Boutique/Store";
+import Addclaim from  "./Claims/Addclaim"
 
 
 
@@ -16,7 +17,8 @@ function App() {
       <CustomNavbar/>
 
       <Description/>
-      
+      <Store/>
+      <Addclaim/>
       <Signin/>
       <Footer />
   
