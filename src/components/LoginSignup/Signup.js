@@ -1,6 +1,6 @@
 import  React from 'react'
 import './Signup.css'
-import CustomNavbar from './Navbar/CustomNavbar';
+
 
 
 
@@ -8,10 +8,10 @@ function Signup() {
     return (
       
       <div classname='Signup'>
-       <CustomNavbar/>
+       
       <form class="form">
       <p class="title">Register </p>
-      <p class="message">Signup now and get full access to our app. </p>
+      <p class="message">Signup now and get full access to our Web site. </p>
           <div class="flex">
           <label>
               <input required="" placeholder="" type="text" class="input" />
