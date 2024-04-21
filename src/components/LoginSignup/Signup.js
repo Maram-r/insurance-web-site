@@ -1,5 +1,6 @@
 import  React from 'react'
 import './Signup.css'
+import CustomNavbar from './Navbar/CustomNavbar';
 
 
 
@@ -7,7 +8,7 @@ function Signup() {
     return (
       
       <div classname='Signup'>
-       
+       <CustomNavbar/>
       <form class="form">
       <p class="title">Register </p>
       <p class="message">Signup now and get full access to our app. </p>
@@ -37,7 +38,7 @@ function Signup() {
           <span>Confirm password</span>
       </label>
       <button class="submit">Submit</button>
-      <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+      <p class="signin">Already have an acount ? <a href="#action3">Signin</a> </p>
   </form>
   
  
