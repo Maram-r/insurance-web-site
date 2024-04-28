@@ -17,9 +17,6 @@ function App() {
       <CustomNavbar/>
 
       <Description/>
-      <Store/>
-      <Addclaim/>
-      <Signin/>
       <Footer />
   
 
